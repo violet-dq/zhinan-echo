@@ -1,0 +1,22 @@
+backend/.env
+backend/data/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+*.sqlite
+*.db
+.trae-cn/
+.env.local
+
+# 学习资料（PDF/PPT 课件，体积过大不纳入版本控制）
+学习资料/
+*.pdf
+*.pptx
+*.docx
+
+# 云隧道临时文件
+cloudflared*.exe
+*.tmp

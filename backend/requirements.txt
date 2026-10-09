@@ -1,0 +1,17 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0
+pydantic>=2.6
+pydantic-settings>=2.2
+python-multipart>=0.0.9
+httpx>=0.27
+langgraph>=0.2
+langchain-core>=0.2
+langchain-openai>=0.1
+pymupdf>=1.24
+python-docx>=1.1
+python-pptx>=0.6
+numpy>=1.26
+# 可选：中文OCR（未安装时图片资料将跳过解析并给出提示）
+# paddleocr>=2.7
+# paddlepaddle>=2.6
